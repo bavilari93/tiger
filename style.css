@@ -30,6 +30,14 @@ body{
 	width:3rem;
 	border-radius: 50% 100% 100% 100%;
 }
+div.inner{
+	position: absolute;
+	background-color:#F7C4A5; 
+	height: 1.8rem; 
+	width: 1.8rem;
+	border-radius:70% 100% 100% 100%;
+	margin: .5rem;
+	 }
 div.ear.right{
 	transform: translateX(7rem) rotate(90deg);
 	margin-top: -3rem;
