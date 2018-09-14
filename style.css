@@ -1,44 +1,100 @@
-*{
-	margin:0;
-	padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	background: #E8DAB2;
+body {
+    background: #E8DAB2;
 }
-.container{ 
-	display: flex;
-	justify-content: center; 
-	align-content: center; 
-	height: 40rem;
-	width: 100%;
- }
- .container>*{
- 	display: absolute;
- 	align-self: center;
- }
 
-.head{
-	width:10rem; 
-	height: 10rem; 
-	background-color: #DD6E42;
-	border-radius: 100%;
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40rem;
+    width: 100%;
 }
-.ear{
-	background-color: #DD6E42; 
-	height: 3rem; 
-	width:3rem;
-	border-radius: 50% 100% 100% 100%;
+
+.container>* {
+    display: absolute;
+    align-self: center;
 }
-div.inner{
+
+.head {
+    width: 10rem;
+    height: 10rem;
+    background-color: #DD6E42;
+    border-radius: 100%;
+}
+
+.ear {
+    background-color: #DD6E42;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50% 100% 100% 100%;
+}
+
+div.inner {
+    position: absolute;
+    background-color: #F7C4A5;
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 70% 100% 100% 100%;
+    margin: .5rem;
+}
+
+div.ear.right {
+    transform: translateX(7rem) rotate(90deg);
+    margin-top: -3rem;
+}
+
+.face {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    top: 21rem;
+    left: 10rem;
+}
+
+.eye {
+    border-radius: 100%;
+    height: .5rem;
+    width: .5rem;
+    background-color: black;
+}
+
+div.eye.right {
+    margin-left: 1.9rem;
+}
+
+.nose {
+    position: absolute;
+    background-color: #A15131;
+    border-radius: 100% 100% 0% 0%;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.mouth {
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: .8rem;
+    margin-left: -.8rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.mouth:before {
 	position: absolute;
-	background-color:#F7C4A5; 
-	height: 1.8rem; 
-	width: 1.8rem;
-	border-radius:70% 100% 100% 100%;
-	margin: .5rem;
-	 }
-div.ear.right{
-	transform: translateX(7rem) rotate(90deg);
-	margin-top: -3rem;
+    content: "";
+     height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 1.4rem;
+
 }
