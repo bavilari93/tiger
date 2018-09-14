@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: #E8DAB2;
+}
+.container{ 
+	display: flex;
+	justify-content: center; 
+	align-content: center; 
+	height: 40rem;
+	width: 100%;
+ }
+ .container>*{
+ 	display: absolute;
+ 	align-self: center;
+ }
+
+.head{
+	width:10rem; 
+	height: 10rem; 
+	background-color: #DD6E42;
+	border-radius: 100%;
+}
+.ear{
+	background-color: #DD6E42; 
+	height: 3rem; 
+	width:3rem;
+	border-radius: 50% 100% 100% 100%;
+}
+div.ear.right{
+	transform: translateX(7rem) rotate(90deg);
+	margin-top: -3rem;
+}
