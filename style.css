@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-content: center;
     height: 40rem;
-    width: 100%;
+    width: 150%;
 }
 
 .container>* {
@@ -60,7 +60,7 @@ div.ear.right {
     width: 5rem;
     top: -3.3rem;
     left: 2.4rem;
-    z-index: 99rem;
+
 }
 
 .eye {
@@ -140,4 +140,36 @@ div.stripe.seven,.eight,.nine{
 	margin-top: -.9rem;
 	top: -2rem;
     left: 8.7rem;
+}
+.newspaper{
+	margin-top: 15.5rem;
+	left:-17rem;
+	position: relative;
+	height: 9rem; 
+	width: 8rem; 
+	background-color: #CCC;
+	transform: rotate(1deg);
+	z-index: 8;
+
+}
+.newspaper.right{
+	margin-top: 15.5rem;
+	left:-17.5rem;
+	opacity: 0.9;
+	background-color: #BBB;
+	transform: rotate(-1deg);
+
+}
+div.hand{
+	position: relative;
+	top: 5rem;
+	left:-14.5rem;
+	background-color: #DD6E42;
+	border-radius: 100%;
+	width: 2rem;
+	height: 2rem;
+	z-index: 9
+}
+div.hand.right{
+	left: -.8rem;
 }
